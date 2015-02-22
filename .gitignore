@@ -9,3 +9,9 @@
 
 # RStudio files
 .Rproj.user/
+
+# Data directory
+uci-har-dataset
+UCI HAR Dataset/
+
+*~

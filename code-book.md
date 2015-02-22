@@ -1,5 +1,12 @@
-"subject"                        
-"activity"                        
+This document attempts to explain the variables in the data set produced by run_analysis.R
+
+"subject" - 30 subjects in the test, numbered 1-30
+"activity" - 6 possible activities "WALKING", "WALKING UPSTAIRS", "WALKING DOWNSTAIRS", 
+"SITTING", "STANDING", "LAYING"                       
+
+The following are the variables from the data set.  For the purposes of this assignment
+the specifics of their meaning are not completely clear to me.
+
 "tBodyAcc-mean()-X"              
 "tBodyAcc-mean()-Y"               
 "tBodyAcc-mean()-Z"              

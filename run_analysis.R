@@ -100,3 +100,7 @@ mean_std <- merged_data[, filter, with=FALSE]
 # each variable for each activity and each subject.
 #
 
+# Group by activity & subject, then find the mean of each column for those groups
+result <- mean_std %>% group_by(activity, subject) %>% summarise_each(funs(mean))
+
+write.table(result, file="results.txt", row.name=FALSE)

@@ -1,6 +1,7 @@
 This document attempts to explain the variables in the data set produced by run_analysis.R
 
 "subject" - 30 subjects in the test, numbered 1-30
+
 "activity" - 6 possible activities "WALKING", "WALKING UPSTAIRS", "WALKING DOWNSTAIRS", 
 "SITTING", "STANDING", "LAYING"                       
 
